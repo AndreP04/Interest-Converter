@@ -31,7 +31,7 @@ while (userInput != "5"):
             i1 = float(input("i1 = "))
 
             #Formula
-            Effi2 = float((pow((1 + x*(i1)),1/y) - 1)*(100))
+            Effi2 = round(float((pow((1 + x*(i1)),1/y) - 1)*(100)),4)
 
             #Show answer
             print(Effi2," %")
@@ -48,7 +48,7 @@ while (userInput != "5"):
             i1 = float(input("i1 = "))
 
             #Formula
-            Nomi2 = float(pow((1 + x*(i1)),1/y) * (y) * (100))
+            Nomi2 = round(float(((1 + x*i1) ** (1/y) - 1) * (y) * 100),4)
 
             #Show answer
             print(Nomi2," %")
