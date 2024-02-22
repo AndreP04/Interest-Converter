@@ -34,7 +34,7 @@ while (userInput != "5"):
             Effi2 = round(float((pow((1 + x*(i1)),1/y) - 1)*(100)),4)
 
             #Show answer
-            print(Effi2," %")
+            print(Effi2,"%")
             
             #Close program
             close = input("Close? ")
@@ -51,15 +51,29 @@ while (userInput != "5"):
             Nomi2 = round(float(((1 + x*i1) ** (1/y) - 1) * (y) * 100),4)
 
             #Show answer
-            print(Nomi2," %")
+            print(Nomi2,"%")
 
             #Close program
             close = input("Close? ")
             if (close == "Y"):
                 break
 
-        #GAAN AAN HIER MET EFFECTIVE PERIODIC
+        #Variables (Effective Periodic)
+        if (userInSimple == "3"):
+            y = float(input("y = "))
+            x = float(input("x = "))
+            i1 = float(input("i1 = "))
             
+            #Formula
+            Effi2 = round(float((pow((1 + x*(i1)),1/y) - 1)*(100)),4)
+
+            #Show answer
+            print(Effi2,"%")
+            
+            #Close program
+            close = input("Close? ")
+            if (close == "Y"):
+                break
 
     # Effective Annual Interest Rate
     if (userInput == "2"):
@@ -69,6 +83,8 @@ while (userInput != "5"):
         print("2. Nominal Interest Rate")
         print("3. Effective Periodic Interest Rate")
         break
+
+    #GAAN AAN HIER
 
     # Effective Periodic Interest Rate
     if (userInput == "3"):
