@@ -21,7 +21,45 @@ while (userInput != "5"):
         print("\n1. Effective Annual Interest Rate")
         print("2. Nominal Interest Rate")
         print("3. Effective Periodic Interest Rate")
-        break
+
+        userInSimple = input("\nEnter an option to continue: ")
+
+        #Variables (Effective Annual)
+        if (userInSimple == "1"):
+            y = float(input("y = "))
+            x = float(input("x = "))
+            i1 = float(input("i1 = "))
+
+            #Formula
+            Effi2 = float((pow((1 + x*(i1)),1/y) - 1)*(100))
+
+            #Show answer
+            print(Effi2," %")
+            
+            #Close program
+            close = input("Close? ")
+            if (close == "Y"):
+                break
+
+        #Variables (Nominal)
+        if (userInSimple == "2"):
+            y = float(input("y = "))
+            x = float(input("x = "))
+            i1 = float(input("i1 = "))
+
+            #Formula
+            Nomi2 = float(pow((1 + x*(i1)),1/y) * (y) * (100))
+
+            #Show answer
+            print(Nomi2," %")
+
+            #Close program
+            close = input("Close? ")
+            if (close == "Y"):
+                break
+
+        #GAAN AAN HIER MET EFFECTIVE PERIODIC
+            
 
     # Effective Annual Interest Rate
     if (userInput == "2"):
