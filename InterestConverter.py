@@ -152,6 +152,25 @@ while (userInput != "5"):
         
         userInEffPer = input("\nEnter an option to continue: ")
 
+        #Variables (Simple)
+        if (userInEffPer == "1"):
+            y = float(input("y = "))
+            x = float(input("x = "))
+            i1 = float(input("i1 = "))
+
+            #Formula
+            Simpi2 = 0  #FIX
+
+            #Show answer
+            print(Simpi2,"%")
+            
+            #Close program
+            close = input("Close? ")
+            if (close == "Y"):
+                break
+
+            #GAAN AAN HIER EN FIX ORAL
+
 
     # Nominal Interest Rate
     if (userInput == "4"):
