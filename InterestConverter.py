@@ -75,6 +75,8 @@ while (userInput != "5"):
             if (close == "Y"):
                 break
 
+
+
     # Effective Annual Interest Rate
     if (userInput == "2"):
         print("\n====Effective Annual Interest Rate Converter====")
@@ -82,9 +84,43 @@ while (userInput != "5"):
         print("\n1. Simple Interest Rate")
         print("2. Nominal Interest Rate")
         print("3. Effective Periodic Interest Rate")
-        break
 
-    #GAAN AAN HIER
+    userInEffAn = input("\nEnter an option to continue: ")
+
+    #Variables (Simple)
+    if (userInEffAn == "1"):
+        y = float(input("y = "))
+        x = float(input("x = "))
+        i1 = float(input("i1 = "))
+
+        #Formula
+        Simi1 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
+
+        #Show answer
+        print(Simi1,"%")
+            
+        #Close program
+        close = input("Close? ")
+        if (close == "Y"):
+            break
+
+    #Variables (Nominal)
+    if (userInEffAn == "2"):
+        y = float(input("y = "))
+        x = float(input("x = "))
+        i1 = float(input("i1 = "))
+
+        #Formula
+        Nomi2 = round((float((1 + i1) ** (x / y) - 1) * y * 100),4)
+
+        #Show answer
+        print(Nomi2,"%")
+            
+        #Close program
+        close = input("Close? ")
+        if (close == "Y"):
+            break
+
 
     # Effective Periodic Interest Rate
     if (userInput == "3"):
@@ -97,7 +133,9 @@ while (userInput != "5"):
         print("5. Effective Annual Interest Rate")
         break
 
-    # Nominal Interest Rat
+
+
+    # Nominal Interest Rate
     if (userInput == "4"):
         print("\n====Nominal Interest Rate Converter====")
         print("\nConvert to:")
