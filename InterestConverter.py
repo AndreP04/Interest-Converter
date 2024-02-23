@@ -85,41 +85,59 @@ while (userInput != "5"):
         print("2. Nominal Interest Rate")
         print("3. Effective Periodic Interest Rate")
 
-    userInEffAn = input("\nEnter an option to continue: ")
+        userInEffAn = input("\nEnter an option to continue: ")
 
-    #Variables (Simple)
-    if (userInEffAn == "1"):
-        y = float(input("y = "))
-        x = float(input("x = "))
-        i1 = float(input("i1 = "))
+        #Variables (Simple)
+        if (userInEffAn == "1"):
+            y = float(input("y = "))
+            x = float(input("x = "))
+            i1 = float(input("i1 = "))
 
-        #Formula
-        Simi1 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
+            #Formula
+            Simi1 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
 
-        #Show answer
-        print(Simi1,"%")
+            #Show answer
+            print(Simi1,"%")
             
-        #Close program
-        close = input("Close? ")
-        if (close == "Y"):
-            break
+            #Close program
+            close = input("Close? ")
+            if (close == "Y"):
+                break
 
-    #Variables (Nominal)
-    if (userInEffAn == "2"):
-        y = float(input("y = "))
-        x = float(input("x = "))
-        i1 = float(input("i1 = "))
+        #Variables (Nominal)
+        if (userInEffAn == "2"):
+            y = float(input("y = "))
+            x = float(input("x = "))
+            i1 = float(input("i1 = "))
 
-        #Formula
-        Nomi2 = round((float((1 + i1) ** (x / y) - 1) * y * 100),4)
+            #Formula
+            Nomi2 = round((float((1 + i1 / 100) ** (x / y) - 1) * y * 100),4)  #FIX
 
-        #Show answer
-        print(Nomi2,"%")
+            #Show answer
+            print(Nomi2,"%")
             
-        #Close program
-        close = input("Close? ")
-        if (close == "Y"):
-            break
+            #Close program
+            close = input("Close? ")
+            if (close == "Y"):
+                break
+
+        #Variables (Effective Periodic)
+        if (userInEffAn == "3"):
+            y = float(input("y = "))
+            x = float(input("x = "))
+            i1 = float(input("i1 = "))
+
+            #Formula
+            Effi2 = 0   #FIX
+
+            #Show answer
+            print(Effi2,"%")
+            
+            #Close program
+            close = input("Close? ")
+            if (close == "Y"):
+                break
+
 
 
     # Effective Periodic Interest Rate
@@ -131,8 +149,8 @@ while (userInput != "5"):
         print("3. Nominal Interest Rate with different compounding")
         print("4. Effective Periodic Interest Rate with different compounding")
         print("5. Effective Annual Interest Rate")
-        break
-
+        
+        userInEffPer = input("\nEnter an option to continue: ")
 
 
     # Nominal Interest Rate
