@@ -94,10 +94,10 @@ while (userInput != "5"):
             i1 = float(input("i1 = "))
 
             #Formula
-            Simi1 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
+            Simi2 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
 
             #Show answer
-            print(Simi1,"%")
+            print(Simi2,"%")
             
             #Close program
             close = input("Close? ")
@@ -111,7 +111,7 @@ while (userInput != "5"):
             i1 = float(input("i1 = "))
 
             #Formula
-            Nomi2 = round((float((1 + i1 / 100) ** (x / y) - 1) * y * 100),4)  #FIX
+            Nomi2 = round((float((1 + i1) ** (x / y) - 1) * y * 100),4)
 
             #Show answer
             print(Nomi2,"%")
@@ -128,7 +128,7 @@ while (userInput != "5"):
             i1 = float(input("i1 = "))
 
             #Formula
-            Effi2 = 0   #FIX
+            Effi2 = 0   #FIX Effective to Effective??
 
             #Show answer
             print(Effi2,"%")
