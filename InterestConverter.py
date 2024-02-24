@@ -34,10 +34,10 @@ while (userInput != "5"):
             Effi2 = round(float((pow((1 + x*(i1)),1/y) - 1)*(100)),4)
 
             #Show answer
-            print(Effi2,"%")
+            print("Effi2 = ",Effi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -51,10 +51,10 @@ while (userInput != "5"):
             Nomi2 = round(float(((1 + x*i1) ** (1/y) - 1) * (y) * 100),4)
 
             #Show answer
-            print(Nomi2,"%")
+            print("Nomi2 = ",Nomi2,"%")
 
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -68,10 +68,10 @@ while (userInput != "5"):
             Effi2 = round(float((pow((1 + x*(i1)),1/y) - 1)*(100)),4)
 
             #Show answer
-            print(Effi2,"%")
+            print("Effi2 = ",Effi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -97,10 +97,10 @@ while (userInput != "5"):
             Simi2 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
 
             #Show answer
-            print(Simi2,"%")
+            print("Simi2 = ",Simi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -114,10 +114,10 @@ while (userInput != "5"):
             Nomi2 = round((float((1 + i1) ** (x / y) - 1) * y * 100),4)
 
             #Show answer
-            print(Nomi2,"%")
+            print("Nomi2 = ",Nomi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -131,10 +131,10 @@ while (userInput != "5"):
             Effi2 = round(float(((1 + i1) ** (x/y) - 1) * 100),4)
 
             #Show answer
-            print(Effi2,"%")
+            print("Effi2 = ",Effi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -161,10 +161,10 @@ while (userInput != "5"):
             Simpi2 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
 
             #Show answer
-            print(Simpi2,"%")
+            print("Simpi2 = ",Simpi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -178,10 +178,10 @@ while (userInput != "5"):
             Nomi2 = round((float((1 + i1) ** (x / y) - 1) * y * 100),4)
 
             #Show answer
-            print(Nomi2,"%")
+            print("Nomi2 = ",Nomi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -195,10 +195,10 @@ while (userInput != "5"):
             Effi2 = round(float(((1 + i) ** (x/y) - 1) * 100),4)
 
             #Show answer
-            print(Effi2,"%")
+            print("Effi2 = ",Effi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -213,10 +213,10 @@ while (userInput != "5"):
             Effi2 = round(float(((1 + i) ** (x/y) - 1) * 100),4)
 
             #Show answer
-            print(Effi2,"%")
+            print("Effi2 = ",Effi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -233,22 +233,75 @@ while (userInput != "5"):
 
         userInNom = input("\nEnter an option to continue: ")
     
-    #Variables (Simple)
+        #Variables (Simple)
         if (userInNom == "1"):
             y = float(input("y = "))
             x = float(input("x = "))
             i1 = float(input("i1 = "))
 
             #Formula
-            Simpi2 = round(float(((1 + i1/x) ** (x) - 1)/y),4)
+            Simpi2 = round(float(((1 + (i1/x)) ** (x) - 1)/(y) * 100),4)
 
             #Show answer
-            print(Simpi2,"%")
+            print("Simpi2 = ",Simpi2,"%")
             
             #Close program
-            close = input("Close? ")
+            close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
+
+        #Variables (Nominal)
+        if (userInNom == "2"):
+            p1 = float(input("p1 = "))
+            p2 = float(input("p2 = "))
+            i1 = float(input("i1 = "))
+
+            #Formula
+            Nomi2 = round(float(((1 + (i1/p1)) ** (p1/p2) - 1) * (p2) * 100),4)
+
+            #Show answer
+            print("Nomi2 = ",Nomi2,"%")
+            
+            #Close program
+            close = input("Close? (Y/N) ")
+            if (close == "Y"):
+                break
+
+        #Variables (Effective Periodic)
+        if (userInNom == "3"):
+            p1 = float(input("p1 = "))
+            p2 = float(input("p2 = "))
+            i1 = float(input("i1 = "))
+
+            #Formula
+            Effi2 = round(float(((1 + (i1/p1)) ** (p1/p2) - 1) * 100),4)
+
+            #Show answer
+            print("Effi2 = ",Effi2,"%")
+            
+            #Close program
+            close = input("Close? (Y/N) ")
+            if (close == "Y"):
+                break
+
+        #Variables (Effective Annual)
+        if (userInNom == "4"):
+            p1 = float(input("p1 = "))
+            p2 = float(input("p2 = "))
+            i1 = float(input("i1 = "))
+
+            #Formula
+            Effi2 = round(float(((1 + (i1/p1)) ** (p1/p2) - 1) * 100),4)
+
+            #Show answer
+            print("Effi2 = ",Effi2,"%")
+            
+            #Close program
+            close = input("Close? (Y/N) ")
+            if (close == "Y"):
+                break
+
+
 
     # Exit the program
     if (userInput == "5"):
