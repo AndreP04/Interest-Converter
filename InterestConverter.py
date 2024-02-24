@@ -40,6 +40,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Nominal)
         if (userInSimple == "2"):
@@ -57,6 +68,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Effective Periodic)
         if (userInSimple == "3"):
@@ -74,6 +96,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
 
 
@@ -103,6 +136,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Nominal)
         if (userInEffAn == "2"):
@@ -120,6 +164,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Effective Periodic)
         if (userInEffAn == "3"):
@@ -137,6 +192,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
 
 
@@ -167,6 +233,17 @@ while (userInput != "5"):
             close = input("Close? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Nominal)
         if (userInEffPer == "2"):
@@ -184,6 +261,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Effective Periodic)
         if (userInEffPer == "3"):
@@ -201,6 +289,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
 
         #Variables (Effective Annual)
@@ -219,6 +318,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
 
 
@@ -249,6 +359,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Nominal)
         if (userInNom == "2"):
@@ -266,6 +387,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Effective Periodic)
         if (userInNom == "3"):
@@ -283,6 +415,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
         #Variables (Effective Annual)
         if (userInNom == "4"):
@@ -300,6 +443,17 @@ while (userInput != "5"):
             close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
+            else:
+                # Display menu of options
+                print("\nConvert from:")
+                print("\n1. Simple Interest Rate")
+                print("2. Effective Annual Interest Rate")
+                print("3. Effective Periodic Interest Rate")
+                print("4. Nominal Interest Rate")               
+                print("5. Close application")
+
+                # Get user input
+                userInput = input("\nEnter an option to continue: ")
 
 
 
