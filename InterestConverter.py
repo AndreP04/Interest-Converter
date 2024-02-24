@@ -26,52 +26,52 @@ while (userInput != "5"):
 
         #Variables (Effective Annual)
         if (userInSimple == "1"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nEffective Period (y) = "))
+            x = float(input("Simple Period (x) = "))
+            i1 = float(input("Simple Interest Rate (i1) = "))
 
             #Formula
             Effi2 = round(float((pow((1 + x*(i1)),1/y) - 1)*(100)),4)
 
             #Show answer
-            print("Effi2 = ",Effi2,"%")
+            print("\nEffective Interest Rate (Effi2) = ",Effi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Nominal)
         if (userInSimple == "2"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nNominal Period (y) = "))
+            x = float(input("Simple Period (x) = "))
+            i1 = float(input("Simple Interest Rate (i1) = "))
 
             #Formula
             Nomi2 = round(float(((1 + x*i1) ** (1/y) - 1) * (y) * 100),4)
 
             #Show answer
-            print("Nomi2 = ",Nomi2,"%")
+            print("\nNominal Interest Rate (Nomi2) = ",Nomi2,"%")
 
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Effective Periodic)
         if (userInSimple == "3"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nEffective Period (y) = "))
+            x = float(input("Simple Period (x) = "))
+            i1 = float(input("Simple Interest Rate (i1) = "))
             
             #Formula
             Effi2 = round(float((pow((1 + x*(i1)),1/y) - 1)*(100)),4)
 
             #Show answer
-            print("Effi2 = ",Effi2,"%")
+            print("\nEffective Interest Rate (Effi2) = ",Effi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -89,52 +89,52 @@ while (userInput != "5"):
 
         #Variables (Simple)
         if (userInEffAn == "1"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nSimple Period (y) = "))
+            x = float(input("Effective Period (x) = "))
+            i1 = float(input("Effective Interest Rate (i1) = "))
 
             #Formula
             Simi2 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
 
             #Show answer
-            print("Simi2 = ",Simi2,"%")
+            print("\nSimple Effective Interest Rate (Simi2) = ",Simi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Nominal)
         if (userInEffAn == "2"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nNominal Period (y) = "))
+            x = float(input("Effective Period (x) = "))
+            i1 = float(input("Effective Interest Rate (i1) = "))
 
             #Formula
             Nomi2 = round((float((1 + i1) ** (x / y) - 1) * y * 100),4)
 
             #Show answer
-            print("Nomi2 = ",Nomi2,"%")
+            print("\nNominal Interest Rate (Nomi2) = ",Nomi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Effective Periodic)
         if (userInEffAn == "3"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nEffective Period (y) = "))
+            x = float(input("Effective Interest Rate 1 (x) = "))
+            i = float(input(" Effective Interest Rate 2 (i) = "))
 
             #Formula
-            Effi2 = round(float(((1 + i1) ** (x/y) - 1) * 100),4)
+            Effi2 = round(float(((1 + i) ** (x/y) - 1) * 100),4)
 
             #Show answer
-            print("Effi2 = ",Effi2,"%")
+            print("\nEffective Interest Rate (Effi2) = ",Effi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -153,15 +153,15 @@ while (userInput != "5"):
 
         #Variables (Simple)
         if (userInEffPer == "1"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nSimple Period (y) = "))
+            x = float(input("Effective Period (x) = "))
+            i1 = float(input("Effective Interest Rate (i1) = "))
 
             #Formula
-            Simpi2 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
+            Simi2 = round(float((((1 + i1) ** x - 1)/y)* 100),4)
 
             #Show answer
-            print("Simpi2 = ",Simpi2,"%")
+            print("\nSimple Effective Interest Rate (Simi2) = ",Simi2,"%")
             
             #Close program
             close = input("Close? (Y/N) ")
@@ -170,53 +170,53 @@ while (userInput != "5"):
 
         #Variables (Nominal)
         if (userInEffPer == "2"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nNominal Period (y) = "))
+            x = float(input("Effective Period (x) = "))
+            i1 = float(input("Effective Interest Rate (i1) = "))
 
             #Formula
             Nomi2 = round((float((1 + i1) ** (x / y) - 1) * y * 100),4)
 
             #Show answer
-            print("Nomi2 = ",Nomi2,"%")
+            print("\nNominal Interest Rate (Nomi2) = ",Nomi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Effective Periodic)
         if (userInEffPer == "3"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i = float(input("i = "))
+            y = float(input("\nEffective Period (y) = "))
+            x = float(input("Effective Interest Rate 1 (x) = "))
+            i = float(input("Effective Interest Rate 2 (i) = "))
 
             #Formula
             Effi2 = round(float(((1 + i) ** (x/y) - 1) * 100),4)
 
             #Show answer
-            print("Effi2 = ",Effi2,"%")
+            print("\nEffective Interest Rate (Effi2) = ",Effi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
 
         #Variables (Effective Annual)
         if (userInEffPer == "4"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i = float(input("i = "))
+            y = float(input("\nEffective Period (y) = "))
+            x = float(input("Effective Interest Rate 1 (x) = "))
+            i = float(input("Effective Interest Rate 2 (i) = "))
 
             #Formula
             Effi2 = round(float(((1 + i) ** (x/y) - 1) * 100),4)
 
             #Show answer
-            print("Effi2 = ",Effi2,"%")
+            print("\nEffective Interest Rate (Effi2) = ",Effi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
@@ -235,69 +235,69 @@ while (userInput != "5"):
     
         #Variables (Simple)
         if (userInNom == "1"):
-            y = float(input("y = "))
-            x = float(input("x = "))
-            i1 = float(input("i1 = "))
+            y = float(input("\nSimple Period (y) = "))
+            x = float(input("Nominal Period (x) = "))
+            i1 = float(input("Nominal Interest Rate (i1) = "))
 
             #Formula
             Simpi2 = round(float(((1 + (i1/x)) ** (x) - 1)/(y) * 100),4)
 
             #Show answer
-            print("Simpi2 = ",Simpi2,"%")
+            print("\nSimple Interest Rate (Simpi2) = ",Simpi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Nominal)
         if (userInNom == "2"):
-            p1 = float(input("p1 = "))
-            p2 = float(input("p2 = "))
-            i1 = float(input("i1 = "))
+            p1 = float(input("\nNominal Period 1 (p1) = "))
+            p2 = float(input("Nominal Period 2 (p2) = "))
+            i1 = float(input("Nominal Interest Rate (i1) = "))
 
             #Formula
             Nomi2 = round(float(((1 + (i1/p1)) ** (p1/p2) - 1) * (p2) * 100),4)
 
             #Show answer
-            print("Nomi2 = ",Nomi2,"%")
+            print("\nNominal Interest Rate (Nomi2) = ",Nomi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Effective Periodic)
         if (userInNom == "3"):
-            p1 = float(input("p1 = "))
-            p2 = float(input("p2 = "))
-            i1 = float(input("i1 = "))
+            p1 = float(input("\nNominal Period (p1) = "))
+            p2 = float(input("Effective Period (p2) = "))
+            i1 = float(input("Nominal Interest Rate (i1) = "))
 
             #Formula
             Effi2 = round(float(((1 + (i1/p1)) ** (p1/p2) - 1) * 100),4)
 
             #Show answer
-            print("Effi2 = ",Effi2,"%")
+            print("\nEffective Interest Rate (Effi2) = ",Effi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
         #Variables (Effective Annual)
         if (userInNom == "4"):
-            p1 = float(input("p1 = "))
-            p2 = float(input("p2 = "))
-            i1 = float(input("i1 = "))
+            p1 = float(input("\nNominal Period (p1) = "))
+            p2 = float(input("Effective Period (p2) = "))
+            i1 = float(input("Nominal Interest Rate (i1) = "))
 
             #Formula
             Effi2 = round(float(((1 + (i1/p1)) ** (p1/p2) - 1) * 100),4)
 
             #Show answer
-            print("Effi2 = ",Effi2,"%")
+            print("\nEffective Interest Rate (Effi2) = ",Effi2,"%")
             
             #Close program
-            close = input("Close? (Y/N) ")
+            close = input("\nClose? (Y/N) ")
             if (close == "Y"):
                 break
 
