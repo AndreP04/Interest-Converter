@@ -47,8 +47,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")               
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -75,8 +76,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")               
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -103,8 +105,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")               
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -143,8 +146,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")               
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -171,8 +175,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")               
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -199,8 +204,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")               
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -240,8 +246,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")               
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -268,8 +275,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")     
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -296,8 +304,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")              
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -325,8 +334,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")              
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -366,8 +376,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")              
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -394,8 +405,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")              
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -422,8 +434,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")              
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -450,8 +463,9 @@ while (userInput != "6"):
                 print("\n1. Simple Interest Rate")
                 print("2. Effective Annual Interest Rate")
                 print("3. Effective Periodic Interest Rate")
-                print("4. Nominal Interest Rate")               
-                print("5. Close application")
+                print("4. Nominal Interest Rate")
+                print("5. Simple Investment Calculator")              
+                print("6. Close application")
 
                 # Get user input
                 userInput = input("\nEnter an option to continue: ")
@@ -481,13 +495,15 @@ while (userInput != "6"):
             # Get user input
             userInSimInv2 = input("\nEnter an option to continue: ")
 
+            #Future Value
             if(userInSimInv2 == "1"):
                 c = float(input("\nPresent Value (c) = "))
                 n = float(input("Term of Investment (n) = "))
                 i = float(input("Interest Rate (i) = "))
+                p = float(input("Period (p) = "))
 
                 #Formula
-                FV = round(float(c * (1 + n * i)),4)
+                FV = round(float(c * (1 + n * p * i)),4)
 
                 #Show answer
                 print("\nFuture Value (FV) = ",FV)
@@ -502,8 +518,132 @@ while (userInput != "6"):
                     print("\n1. Simple Interest Rate")
                     print("2. Effective Annual Interest Rate")
                     print("3. Effective Periodic Interest Rate")
-                    print("4. Nominal Interest Rate")               
-                    print("5. Close application")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+            
+            #Present Value
+            if(userInSimInv2 == "2"):
+                FV = float(input("\nFuture Value (FV) = "))
+                n = float(input("Term of Investment (n) = "))
+                i = float(input("Interest Rate (i) = "))
+                p = float(input("Period (p) = "))
+
+                #Formula
+                c = round(float(FV/(1 + n * p * i)),4)
+
+                #Show answer
+                print("\nPresent Value (c) = ",c)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+            
+            #Term of Investment
+            if(userInSimInv2 == "3"):
+                FV = float(input("\nFuture Value (FV) = "))
+                c = float(input("Present Value (c) = "))
+                i = float(input("Interest Rate (i) = "))
+
+                #Formula
+                n = round(float((FV/c - 1) / i),4)
+
+                #Show answer
+                print("\nTerm of Investment (n) = ",n)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+            
+            #Simple Interest Rate
+            if(userInSimInv2 == "4"):
+                FV = float(input("\nFuture Value (FV) = "))
+                c = float(input("Present Value (c) = "))
+                n = float(input("Term of Investment (n) = "))
+
+                #Formula
+                i = round(float((100) * ((FV/c) - 1) / n),4)
+
+                #Show answer
+                print("\nSimple Interest Rate (i) = ",i)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+
+            #Interest Earned
+            if(userInSimInv2 == "5"):
+                i = float(input("\nInterest Rate (i) = "))
+                c = float(input("Present Value (c) = "))
+                n = float(input("Term of Investment (n) = "))
+                p = float(input("Period (p) = "))
+
+                #Formulas
+                FV = round(float(c * (1 + n * p * i)),4)
+                IE = round(float(FV - c),2)
+
+                #Show answer
+                print("\nInterest Earned = R",IE)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
 
                     # Get user input
                     userInput = input("\nEnter an option to continue: ")
