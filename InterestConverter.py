@@ -982,6 +982,175 @@ while (userInput != "6"):
                     # Get user input
                     userInput = input("\nEnter an option to continue: ")
 
+        
+
+        #Nominal
+        if (userInSimInv1 == "4"):
+            print("\nCalculate:")
+            print("\n1. Future Value")
+            print("2. Present Value")
+            print("3. Term of Investment")
+            print("4. Nominal Interest Rate")
+            print("5. Amount of Interest Earned")
+
+            # Get user input
+            userInSimInv2 = input("\nEnter an option to continue: ")
+
+            #Future Value
+            if(userInSimInv2 == "1"):
+                c = float(input("\nPresent Value (c) = "))
+                n = float(input("Term of Investment (n) = "))
+                i = float(input("Interest Rate (i) = "))
+                p = float(input("Period (p) = "))
+
+                #Formula
+                FV = round(float(c * pow(1 + i/p, n*p)),2)
+
+                #Show answer
+                print("\nFuture Value (FV) = R",FV)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+            
+            #Present Value
+            if(userInSimInv2 == "2"):
+                FV = float(input("\nFuture Value (FV) = "))
+                n = float(input("Term of Investment (n) = "))
+                i = float(input("Interest Rate (i) = "))
+                p = float(input("Period (p) = "))
+
+                #Formula
+                c = round(float(FV / pow((1 + i/p), n * p)),2)
+
+                #Show answer
+                print("\nPresent Value (c) = R",c)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+
+            #Term of Investment
+            if(userInSimInv2 == "3"):
+                FV = float(input("\nFuture Value (FV) = "))
+                c = float(input("Present Value (c) = "))
+                i = float(input("Interest Rate (i) = "))
+                p = float(input("Period (p) = "))
+
+                #Formula
+                n = round(float((math.log(FV/c) / math.log(1 + i/p)) / p),2)
+
+                #Show answer
+                print("\nTerm of Investment (n) = ",n)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+
+            #Nominal Interest Rate
+            if(userInSimInv2 == "4"):
+                FV = float(input("\nFuture Value (FV) = "))
+                c = float(input("Present Value (c) = "))
+                n = float(input("Term of Investment (n) = "))
+                p = float(input("Period (p) = "))
+
+                #Formula
+                i = round(float((pow(FV/c, 1/(n*p)) - 1) * p * 100),2)
+
+                #Show answer
+                print("\nNominal Interest Rate (i) = ",i,"%")
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
+
+            #Interest Earned
+            if(userInSimInv2 == "5"):
+                i = float(input("\nInterest Rate (i) = "))
+                c = float(input("Present Value (c) = "))
+                n = float(input("Term of Investment (n) = "))
+                p = float(input("Period (p) = "))
+
+                #Formulas
+                FV = round(float(c * pow((1 + i/p), n*p)),2)
+                IE = round(float(FV - c),2)
+
+                #Show answer
+                print("\nInterest Earned = R",IE)
+
+                #Close program
+                close = input("\nClose? (Y/N) ")
+                if (close == "Y"):
+                    break
+                else:
+                    # Display menu of options
+                    print("\nConvert from:")
+                    print("\n1. Simple Interest Rate")
+                    print("2. Effective Annual Interest Rate")
+                    print("3. Effective Periodic Interest Rate")
+                    print("4. Nominal Interest Rate")
+                    print("5. Simple Investment Calculator")              
+                    print("6. Close application")
+
+                    # Get user input
+                    userInput = input("\nEnter an option to continue: ")
+
     # Exit the program
     if (userInput == "6"):
         exit()
