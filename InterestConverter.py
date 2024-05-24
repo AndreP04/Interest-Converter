@@ -4,7 +4,7 @@ import math
 print("\n====Interest Converter====")
 
 # Display menu of options
-print("\nConvert from:")
+print("\nChoose an option:")
 print("\n1. Simple Interest Rate")
 print("2. Effective Annual Interest Rate")
 print("3. Effective Periodic Interest Rate")
@@ -125,7 +125,7 @@ while (userInput != "6"):
             
             #Close program
             close = input("\nClose? (Y/N) ")
-            if (close == "Y"):
+            if (close == "Y" or close == "y"):
                 break
             else:
                 displayMenu()
